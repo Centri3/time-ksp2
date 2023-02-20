@@ -1,0 +1,13 @@
+[package]
+name = "time-ksp2"
+version = "1.0.0"
+edition = "2021"
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[dependencies]
+chrono = "0.4.23"
+eframe = "0.21.3"
+egui = { version = "0.21.0", features = ["extra_debug_asserts"] }
+rand = "0.8.5"
